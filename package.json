@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "http-server ./src/ -p 3000",
-    "build": "cp -R src/* dist/"
+    "build": "mkdir -p dist && cp -R src/* dist/"
   },
   "name": "typingmind",
   "version": "1.0.0",
